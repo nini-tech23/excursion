@@ -1,0 +1,79 @@
+/* Resetting some default styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Applying styles to the body */
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Styles for the header */
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Verdana', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
+
+header a {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Styles for the content section */
+#content-section {
+    padding: 20px;
+}
+
+#content-section h2 {
+    font-family: 'Verdana', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+#content-section p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+
+/* Styles for the download section */
+#download-section {
+    padding: 20px;
+}
+
+#download-section h2 {
+    font-family: 'Verdana', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+#download-section a {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Styles for the footer */
+footer {
+    padding: 20px;
+    text-align: right;
+}
+
+footer p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 21px;
+    color: gray;
+}
